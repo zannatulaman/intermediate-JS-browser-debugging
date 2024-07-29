@@ -4,16 +4,23 @@ const person = {
     age : 7
 }
 
-// const keys = Object.keys(person);
+// console.log(person.firstName);
+
+// const keys = person['firstName'];
 // console.log(keys);
+
+const keys = Object.keys(person);
+console.log(keys);
 
 const values = Object.values(person);
 console.log(values);
 
-// for(let item of keys){
-//     console.log(person[item]);
+// for(let key of keys){
+//     // console.log(key);
+//      const value = person[key]
+//      console.log(`${key}, ${value}`);
 // }
 
-for (let keys in values ){
-    console.log(keys);
+for (let key in values ){
+    console.log(key);
 }

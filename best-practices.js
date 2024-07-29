@@ -64,6 +64,9 @@ function addTwoNumbers(num1, num2){
     return num1 + num2
     
 }
+console.log(addTwoNumbers(2, 2));
+console.log(addTwoNumbers(3, 2));
+console.log(addTwoNumbers(6, 2));
 
 
 

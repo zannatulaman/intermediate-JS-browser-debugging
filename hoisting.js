@@ -16,10 +16,9 @@ console.log(age2);
 
 //let age = 50;
 
-hello()
 
+
+console.log(hello());
 function hello() {
-    console.log('hello');
-
+    return "Hello World"
 }
-//hello()
